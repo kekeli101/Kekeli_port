@@ -1,0 +1,67 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    line-height: 1.6; /* Improve readability with more space between lines */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Header styles */
+header {
+    background: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 1rem 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center-align the text */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin for the heading */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 10px; /* Add space between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Section styles */
+section {
+    padding: 2rem; /* Add padding inside each section */
+    margin: 1rem 0; /* Add space between sections */
+    background: #fff; /* White background for sections */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 1.5rem; /* Add space between projects */
+}
+
+.project h3 {
+    margin: 0 0 0.5rem 0; /* Add space below project titles */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center-align the text */
+    padding: 1rem 0; /* Add padding to the top and bottom */
+    background: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+}
